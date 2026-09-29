@@ -1,0 +1,261 @@
+{
+  "profile": {
+    "name": "Sumit Patel",
+
+    "roles": [
+      "Creative Developer",
+
+      "Web Developer",
+
+      "Backend-focused Developer"
+    ],
+
+    "bio": "Computer Science & Engineering student focused on creative web development, backend systems, interactive UI, AI integrations, local LLMs, and RAG applications.",
+
+    "education": {
+      "degree": "B.Tech in Computer Science & Engineering",
+
+      "institution": "Gyan Ganga Institute of Technology and Sciences",
+
+      "duration": "2023 — 2027",
+
+      "cgpa": "8.02"
+    },
+
+    "contacts": {
+      "email": "patelsumit86112@gmail.com",
+
+      "github": "https://github.com/sumit12c",
+
+      "linkedin": "https://www.linkedin.com/in/sumit-patel-5a8407290/",
+
+      "leetcode": "https://leetcode.com/u/patelsumit86112/"
+    }
+  },
+
+  "skills": {
+    "languages": [
+      "Python",
+
+      "JavaScript",
+
+      "TypeScript",
+
+      "C++",
+
+      "HTML/CSS",
+
+      "SQL"
+    ],
+
+    "frontend": [
+      "React",
+
+      "TypeScript",
+
+      "Tailwind CSS",
+
+      "Bootstrap",
+
+      "Vite",
+
+      "Three.js",
+
+      "EJS"
+    ],
+
+    "backend": ["Node.js", "Express.js", "Python", "Django", "REST APIs"],
+
+    "databases": ["MongoDB", "MongoDB Atlas", "MySQL"],
+
+    "ai_rag": [
+      "Google Gemini API",
+
+      "Ollama",
+
+      "Local LLMs",
+
+      "RAG",
+
+      "FAISS",
+
+      "Tesseract.js"
+    ],
+
+    "creative": [
+      "Figma",
+
+      "Spline",
+
+      "UI/UX",
+
+      "Web Animation",
+
+      "3D Web Experiences"
+    ],
+
+    "tools": ["Git", "GitHub", "Linux", "VS Code", "CMake"]
+  },
+
+  "projects": [
+    {
+      "name": "DRAGON Music Player",
+
+      "type": "Lightweight terminal music player",
+
+      "technologies": ["C++20", "FTXUI", "miniaudio", "CMake"],
+
+      "highlights": "Local music player with keyboard-first controls, shuffle, repeat, volume control, animated vinyl interface, and support for MP3, WAV, FLAC, OGG, and M4A.",
+
+      "github": "https://github.com/sumit12c/Terminal_Music_Player"
+    },
+
+    {
+      "name": "AI Research Assistant",
+
+      "type": "Command-line RAG application",
+
+      "technologies": ["Python", "FAISS", "Gemini", "Ollama", "Qwen"],
+
+      "highlights": "Research assistant using web search, document extraction, embeddings, FAISS similarity search, local or cloud LLMs, and PDF report generation.",
+
+      "github": "https://github.com/sumit12c/RAG-model-web-search_pdf"
+    },
+
+    {
+      "name": "NoteSnap",
+
+      "type": "Automated OCR and AI note generator",
+
+      "technologies": [
+        "React",
+
+        "TypeScript",
+
+        "Vite",
+
+        "Tailwind CSS",
+
+        "Express.js",
+
+        "Gemini API",
+
+        "Tesseract.js"
+      ],
+
+      "highlights": "Captures screenshots, extracts text using OCR, generates structured AI notes, tracks study sessions, and supports DOCX export.",
+
+      "github": "https://github.com/sumit12c/notesnap"
+    },
+
+    {
+      "name": "ResQVerse",
+
+      "type": "Disaster preparedness and awareness platform",
+
+      "technologies": ["Express.js", "MongoDB Atlas"],
+
+      "highlights": "Interactive disaster-preparedness platform containing 5+ games and 10+ learning modules.",
+
+      "github": "https://github.com/sumit12c/ResQverse"
+    },
+
+    {
+      "name": "Kracit",
+
+      "type": "AI interview and career preparation platform",
+
+      "technologies": [
+        "Google Gemini API",
+
+        "Express.js",
+
+        "EJS",
+
+        "MongoDB Atlas"
+      ],
+
+      "highlights": "AI-powered career and interview preparation platform with authentication and database integration.",
+
+      "github": "https://github.com/sumit12c/KRACIT"
+    },
+
+    {
+      "name": "FileFlick",
+
+      "type": "File-sharing utility",
+
+      "technologies": ["JavaScript", "HTML", "CSS", "Python"],
+
+      "highlights": "File-sharing workspace designed for moving files between mobile and PC.",
+
+      "github": "https://github.com/sumit12c/fileflick"
+    },
+
+    {
+      "name": "LeetCode Solution Scraper",
+
+      "type": "Python automation utility",
+
+      "technologies": ["Python"],
+
+      "highlights": "Automatically collects solved LeetCode problems and organizes accepted solutions into local files.",
+
+      "github": "https://github.com/sumit12c/solved_leetcode_question_downloader"
+    }
+  ],
+
+  "certifications": [
+    "Cisco CCNA 1",
+
+    "Cisco CCNA 2",
+
+    "Cisco CCNA 3",
+
+    "Cisco Applied AI",
+
+    "Cisco Modern AI",
+
+    "Introduction to Data Analytics",
+
+    "Python 1",
+
+    "Python 2"
+  ],
+
+  "interests": [
+    "Creative Web Development",
+
+    "Interactive UI/UX",
+
+    "Backend Systems",
+
+    "AI Applications",
+
+    "Local LLMs",
+
+    "RAG",
+
+    "Three.js",
+
+    "3D Web Experiences",
+
+    "Web Animation",
+
+    "AI API Integration"
+  ],
+
+  "quick_facts": {
+    "graduation_year": "2027",
+
+    "cgpa": "8.02",
+
+    "primary_backend": "Node.js and Express.js",
+
+    "primary_ai_interests": ["RAG", "Local LLMs", "Ollama", "Gemini API"],
+
+    "primary_database": ["MongoDB", "MySQL"],
+
+    "ds_algo_practice": "Around 100 Python DSA/LeetCode problems"
+  }
+}

@@ -37,7 +37,7 @@
   position: relative;
   overflow: hidden;
   min-height: 100svh;
-  padding: 108px clamp(28px, 8vw, 140px) 116px;
+  padding: 108px clamp(28px, 8vw, 140px) 40px;
   background: #050505;
   color: #fff;
   scroll-margin-top: 24px;
@@ -54,7 +54,7 @@
 .playground-section {
   position: relative;
   overflow: hidden;
-  padding: 108px clamp(12px, 2vw, 32px) 130px;
+  padding: 40px clamp(12px, 2vw, 32px) 100px;
   background: #050505;
   color: #f4f4f4;
   scroll-margin-top: 24px;
@@ -2712,42 +2712,6 @@
   box-shadow: 0 0 12px rgba(20, 92, 255, 0.4);
 }
 
-.timeline-track::after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  top: -5px;
-  left: 239px;
-  width: 11px;
-  height: 11px;
-  border-radius: 50%;
-  background: #fff;
-  box-shadow:
-    0 0 0 5px #145cff,
-    0 0 24px 8px rgba(20, 92, 255, 0.8);
-  animation: timelinePulseTravel 6s cubic-bezier(0.65, 0, 0.35, 1) infinite;
-}
-
-@keyframes timelinePulseTravel {
-  0% {
-    top: -5px;
-    opacity: 0;
-    transform: scale(0.5);
-  }
-  8% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  82% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  100% {
-    top: calc(100% - 6px);
-    opacity: 0;
-    transform: scale(0.4);
-  }
-}
 
 .timeline-entry {
   position: relative;
@@ -2889,9 +2853,7 @@
   .timeline-track::before {
     left: 30px;
   }
-  .timeline-track::after {
-    left: 25px;
-  }
+
   .timeline-entry {
     grid-template-columns: 56px minmax(0, 1fr);
     gap: 12px 18px;
@@ -3246,9 +3208,7 @@
   .timeline-book .timeline-track::before {
     left: 30px;
   }
-  .timeline-book .timeline-track::after {
-    left: 25px;
-  }
+
   .timeline-book .timeline-entry {
     grid-template-columns: 48px minmax(0, 1fr);
     gap: 12px;

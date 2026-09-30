@@ -235,10 +235,10 @@ function App() {
 
                 <motion.div
                   className="about-tool-line"
-                  initial={{ opacity: 0, scaleX: 0 }}
-                  whileInView={{ opacity: 1, scaleX: 1 }}
-                  viewport={{ once: true, amount: 0.3 }}
-                  transition={{ duration: 1, delay: 0.2 }}
+                  initial={{ opacity: 0, y: 12 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, amount: 0.2 }}
+                  transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
                 >
                   <span>
                     HTML / CSS / JavaScript / Node.js / Express.js / MongoDB /
@@ -628,12 +628,12 @@ function Timeline() {
         </div>
 
         <motion.div
-  className="timeline-book"
-  initial={{ opacity: 0, y: 40 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  viewport={{ once: true, amount: 0.1, margin: "0px 0px -80px 0px" }}
-  transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
->
+          className="timeline-book"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.25 }}
+          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+        >
           <div className="timeline-book-spine" aria-hidden="true" />
           <div className="timeline-book-page-number" aria-hidden="true">
             {activeTrack === "education" ? "EDU / 01" : "CAREER / 02"}
@@ -655,9 +655,9 @@ function Timeline() {
                 <motion.article
                   className="timeline-entry"
                   key={entry.title}
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.5, delay: 0.2 + index * 0.12 }}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.15 + index * 0.1 }}
                 >
                   <span className="timeline-number">0{index + 1}</span>
                   <time>{entry.date}</time>
@@ -924,10 +924,10 @@ function TechCard({
   return (
     <motion.article
       className={`tech-card tech-card-${size}`}
-      initial={{ opacity: 0, y: -70, rotate: size === "small" ? 2 : -2 }}
-      whileInView={{ opacity: 1, y: 0, rotate: 0 }}
-      viewport={{ once: true, amount: 0.15 }}
-      transition={{ duration: 0.7, delay, ease: [0.16, 1, 0.3, 1] }}
+      initial={{ opacity: 0, y: 24 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.1, margin: "0px 0px -40px 0px" }}
+      transition={{ duration: 0.55, delay, ease: [0.16, 1, 0.3, 1] }}
     >
       <img
         src={`/assets/${image}`}

@@ -628,13 +628,12 @@ function Timeline() {
         </div>
 
         <motion.div
-          className="timeline-book"
-          initial={{ opacity: 0, y: 70, rotateX: -14, scale: 0.96 }}
-          whileInView={{ opacity: 1, y: 0, rotateX: 0, scale: 1 }}
-          viewport={{ once: true, amount: 0.2 }}
-          transition={{ duration: 1.1, ease: [0.16, 1, 0.3, 1] }}
-          style={{ transformPerspective: 1600 }}
-        >
+  className="timeline-book"
+  initial={{ opacity: 0, y: 40 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true, amount: 0.1, margin: "0px 0px -80px 0px" }}
+  transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+>
           <div className="timeline-book-spine" aria-hidden="true" />
           <div className="timeline-book-page-number" aria-hidden="true">
             {activeTrack === "education" ? "EDU / 01" : "CAREER / 02"}
